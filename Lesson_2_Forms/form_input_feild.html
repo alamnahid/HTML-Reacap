@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Form Input field Practice">
+    <title>Form Input Feilds</title>
+</head>
+<body>
+    <header>
+          <center><h2>Form Input Fields</h2></center>
+        </header>
+        <main>
+            <section>
+                <form action="/action.php" autocomplete="on">
+                <input type="hidden" name="s_id" id="s_id" value="0145">
+                <label for="name" id="name" name="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+                <br><br>
+                <label for="study_level" id="study_level" name="study_level">What is your last educational qualifications:</label>
+                <select name="study_level" id="study_level">
+                    <option value="SSC">SSC</option>
+                    <option value="HSC">HSC</option>
+                    <option value="Bachelor">Bachelor</option>
+                    <option value="Masters/MBA">Masters/MBA</option>
+                </select>
+                <br>
+                <p>Do you have vehicle</p>
+                <input type="checkbox" id="bike" name="bike" value="Bike">
+                <label for="bike">I have Bike</label>
+                <input type="checkbox" name="car" id="car" value="Car">
+                <label for="car">I have Car</label>
+                <input type="checkbox" name="novehicle" id="novehicle" value="novehicle">
+                <label for="novehicle">I don't have any vehicle</label>
+
+                <br><br>
+                <label for="color" name="color" id="color">What is your favorite color?</label>
+                <input type="color" name="color" id="color">
+                <br><br>
+                <label for="birth_date" name="birth_date" id="birth_date">What is your Date of Birth</label>
+                <input type="date" name="birth_date" id="birth_date">
+                <br><br>
+                <label for="email" id="email" name="email">Email: </label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label for="joining_month" name="joining_month" id="joining_month">Which month You can join?</label>
+                <input type="month" name="joining_month" id="joining_month">
+                <br><br>
+                <label for="tel_number" name="tel_number" id="tel_number">Enter your phone number:</label>
+                <input type="tel" name="tel_number" id="tel_number">
+                <br><br>
+                <label for="password" id="password" name="password">Enter new password:</label>
+                <input type="password" name="password" id="password">
+
+                <br><br>
+                <label for="resume" id="resume" name="resume">Upload your resume:</label>
+                <input type="file" name="resume" id="resume">
+                <br><br>
+                <input type="image" src="./submit.avif" width="48">
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
